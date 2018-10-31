@@ -3,7 +3,7 @@ package cn.edu.sicnu.cs.yuxin.exp3.title3;
 public class Student {
     private int id, nCourse;
     private String name;
-    private Course[] courses;
+    private Course[] courses = null;
 
     public Student() {
     }

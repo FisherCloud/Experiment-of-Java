@@ -10,13 +10,13 @@ public class DoubleConverter {
         str = input.nextLine();
         double digital = toDouble(str);
         if (digital != 0) {
-            System.out.println(toDouble(str));
+            System.out.println(digital);
         } else {
             System.out.println("输入错误！此字符串不是浮点数！");
         }
     }
 
-    public static double toDouble(String str) {
+    public static double toDouble(String str) { //判断字符串是否是浮点数，并返回转换后的浮点数
         boolean flag = false;
         double digital = 0;
         int count = 0;

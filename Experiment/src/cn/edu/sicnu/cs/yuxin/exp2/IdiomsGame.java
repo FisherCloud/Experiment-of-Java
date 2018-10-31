@@ -10,7 +10,7 @@ public class IdiomsGame {
         Run();
     }
 
-    public static void Run() {
+    public static void Run() {  //游戏运行函数
         Scanner input = new Scanner(System.in);
         String[] charbuffer = new String[10];
         boolean[] charbufferflag = new boolean[10];

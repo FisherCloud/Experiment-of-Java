@@ -44,7 +44,7 @@ public class Matrix {
         input.close();
     }
 
-    private static int[][] matrixmul(int[][] a, int[][] b) {
+    private static int[][] matrixmul(int[][] a, int[][] b) {    //矩阵相乘函数
         if (a[0].length != b.length) {
             return null;
         }

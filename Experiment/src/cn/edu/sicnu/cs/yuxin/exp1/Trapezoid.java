@@ -10,14 +10,14 @@ public class Trapezoid {
         x = input.nextInt();
         System.out.println("请输入梯形的层数：");
         h = input.nextInt();
-        for (int i = 0; i < h; i++) {
+        for (int i = 0; i < h; i++) {   // 两层循环实现等腰梯形的打印输出
             for (int j = 0; j < h - i + 1; j++) {
                 System.out.print(" ");
             }
             for (int j = 0; j < x + i * 2; j++) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println();   //换行
         }
         input.close();
     }

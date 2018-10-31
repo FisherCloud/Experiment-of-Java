@@ -7,7 +7,7 @@ public class Money {
         int year;
         double amount, principle, rate;
         Scanner input = new Scanner(System.in);
-        while (true) {
+        while (true) {  //输入检测
             try {
                 System.out.println("请输入您的本金：");
                 principle = input.nextDouble();

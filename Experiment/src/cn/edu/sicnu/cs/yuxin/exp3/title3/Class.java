@@ -4,6 +4,7 @@ import java.security.PublicKey;
 
 public class Class {
     private int nStudent = 0;
+    private Student[] students = null;
 
     public Class() {
     }
@@ -13,6 +14,7 @@ public class Class {
     }
 
     public void addStudent(Student student) {
+        nStudent += 1;
 
     }
 

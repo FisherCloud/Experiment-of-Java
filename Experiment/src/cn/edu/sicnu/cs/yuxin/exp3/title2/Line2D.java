@@ -6,13 +6,13 @@ public class Line2D {
     public Line2D() {
     }
 
-    public Line2D(double k, Point2D point2D) {
+    public Line2D(double k, Point2D point2D) {  //点斜式
         this.a = k;
         this.b = -1;
         this.c = point2D.getY() - point2D.getX() * k;
     }
 
-    public Line2D(Point2D p1, Point2D p2) {
+    public Line2D(Point2D p1, Point2D p2) { //两点式
         if (p1.equals(p2)) {
             System.out.println("两点相等，不能构成一条直线！");
             System.exit(-1);
@@ -23,7 +23,7 @@ public class Line2D {
         }
     }
 
-    public Line2D(double a, double b) {
+    public Line2D(double a, double b) { //一般式
         this.a = b;
         this.b = a;
         this.c = 0 - a * b;
