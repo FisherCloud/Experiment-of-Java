@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title1/Exp5_Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title2/Exp5_Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../~$ava Programing》Experiment Program.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/contents/斗破苍穹之无上巅峰.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/Test/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/filesPro/FileProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/frame/mainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Trapezoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp1/Trapezoid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/StatementCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/StatementCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title2/Line2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title2/Line2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,47 +113,54 @@
     <session id="1672992422">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Contents" value="1" />
           <entry key="Rectangle" value="1" />
           <entry key="Shape2D" value="1" />
           <entry key="Square" value="1" />
           <entry key="Tile1Test" value="2" />
           <entry key="Title2Test" value="1" />
           <entry key="Triangle" value="1" />
-          <entry key="java" value="31" />
+          <entry key="form" value="1" />
+          <entry key="java" value="42" />
           <entry key="md" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="GUI_DESIGNER_FORM" value="1" />
+          <entry key="JAVA" value="42" />
           <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="741" />
+          <entry key="java" value="2223" />
           <entry key="md" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="741" />
+          <entry key="JAVA" value="2223" />
           <entry key="Markdown" value="55" />
         </counts>
       </usages-collector>
@@ -166,14 +168,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="73" column="101" lean-forward="true" selection-start-line="73" selection-start-column="101" selection-end-line="73" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="329">
-                <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1109">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -224,14 +287,23 @@
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/StatementCheck.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title2/Line2D.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title1/Test.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title2/Exp5_Test2.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title1/exp5_Test1.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title1/Exp5_Test1.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/TXTPro.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/filesPro/CreateFile.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/filesPro/FileProcess.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.form" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/frame/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/Test/Reader.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java" />
       </list>
     </option>
   </component>
@@ -281,6 +353,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,35 +383,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuxin" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
-          <expand>
             <path>
-              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
+              <item name="exp4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540952821554" />
-    <property name="last_opened_file_path" value="G:/Web/FishSwing" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540983815700" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="ics" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\Experiment\src\cn\edu\sicnu\cs\yuxin\exp9\title1\contents" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -341,9 +426,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IdiomsGame">
-    <configuration name="DoubleConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp2.DoubleConverter" />
+  <component name="RunManager" selected="Application.Reader">
+    <configuration name="IdiomsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp2.IdiomsGame" />
       <module name="Experiment" />
       <extension name="coverage">
         <pattern>
@@ -355,12 +440,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdiomsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp2.IdiomsGame" />
+    <configuration name="NovelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp9.title1.src.module.NovelReader" />
       <module name="Experiment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.sicnu.cs.yuxin.exp2.*" />
+          <option name="PATTERN" value="cn.edu.sicnu.cs.yuxin.exp9.title1.src.module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp9.title1.src.Test.Reader" />
+      <module name="Experiment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.sicnu.cs.yuxin.exp9.title1.src.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,13 +475,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Experiment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -418,19 +509,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Title2Test" />
-      <item itemvalue="Application.DoubleConverter" />
       <item itemvalue="Application.StatementCheck" />
       <item itemvalue="Application.IdiomsGame" />
       <item itemvalue="Application.Tile1Test" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.NovelReader" />
+      <item itemvalue="Application.Reader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Reader" />
+        <item itemvalue="Application.NovelReader" />
         <item itemvalue="Application.IdiomsGame" />
         <item itemvalue="Application.Tile1Test" />
         <item itemvalue="Application.StatementCheck" />
-        <item itemvalue="Application.DoubleConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -468,18 +559,22 @@
       <workItem from="1539876604785" duration="13000" />
       <workItem from="1540091920002" duration="60000" />
       <workItem from="1540092249242" duration="27000" />
-      <workItem from="1540950803163" duration="1870000" />
+      <workItem from="1540950803163" duration="6339000" />
+      <workItem from="1540964382452" duration="4235000" />
+      <workItem from="1540971521436" duration="447000" />
+      <workItem from="1540975038407" duration="1856000" />
+      <workItem from="1540977024968" duration="3119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62547000" />
+    <option name="totallyTimeSpent" value="76673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -497,7 +592,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.12803234" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.12798265" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -773,55 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -843,13 +889,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/contents">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="329">
-            <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <first_editor relative-caret-position="224">
+            <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/TXTPro.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/filesPro/FileProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/Test/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/frame/mainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/src/module/NovelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/title1/contents/斗破苍穹之无上巅峰.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="73" column="101" lean-forward="true" selection-start-line="73" selection-start-column="101" selection-end-line="73" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
