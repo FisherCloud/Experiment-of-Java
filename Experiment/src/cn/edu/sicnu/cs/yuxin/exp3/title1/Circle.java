@@ -5,6 +5,7 @@ public class Circle extends Shape2D {
     private final static double PI = 3.1415926;
 
     public Circle() {
+        this.r = 0.0;
     }
 
     public Circle(double r) {

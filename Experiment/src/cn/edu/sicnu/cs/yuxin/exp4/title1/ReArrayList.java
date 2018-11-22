@@ -7,12 +7,12 @@ public class ReArrayList implements ReList {
     private int incSize;            //数组增量
     private Object[] objects;       //定义对象数组
 
-    ReArrayList() {                 //默认构造函数
+    public ReArrayList() {                 //默认构造函数
         this.incSize = 5;
         this.objects = new Object[this.incSize];
     }
 
-    ReArrayList(int incSize) {
+    public ReArrayList(int incSize) {
         if (incSize <= 0) {
             this.incSize = 5;
         } else {
@@ -72,5 +72,9 @@ public class ReArrayList implements ReList {
     @Override
     public String toString() {
         return "ReArrayList [incSize=" + incSize + ",objects=" + Arrays.toString(this.objects) + "]";
+    }
+
+    public Object[] getObjects() {
+        return objects;
     }
 }

@@ -7,12 +7,12 @@ public class ReDoubledArrayList implements ReList {
     private int incSize;
     private Object[] objects;
 
-    ReDoubledArrayList() {
+    public ReDoubledArrayList() {
         this.incSize = 10;
         objects = new Object[this.incSize];
     }
 
-    ReDoubledArrayList(int incSize) {
+    public ReDoubledArrayList(int incSize) {
         if (incSize <= 0) {
             this.incSize = 10;
         } else {
