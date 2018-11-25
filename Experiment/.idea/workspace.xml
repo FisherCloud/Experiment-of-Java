@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa86915c-4c57-42f8-8705-2754768b071b.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,13 +42,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="769">
-                <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+              <first_editor relative-caret-position="218">
+                <caret line="246" column="10" lean-forward="true" selection-start-line="246" selection-start-column="10" selection-end-line="246" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -182,6 +181,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,17 +215,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
-          <expand>
-            <path>
-              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,6 +395,7 @@
       <workItem from="1543055007632" duration="170000" />
       <workItem from="1543118790464" duration="9043000" />
       <workItem from="1543130442821" duration="953000" />
+      <workItem from="1543131967855" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1540983851185</created>
@@ -408,13 +408,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103144000" />
+    <option name="totallyTimeSpent" value="103447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17788461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18002136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -772,8 +772,8 @@
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="769">
-            <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+          <first_editor relative-caret-position="218">
+            <caret line="246" column="10" lean-forward="true" selection-start-line="246" selection-start-column="10" selection-end-line="246" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
