@@ -116,3 +116,104 @@
        其中，g表示最后的加权成绩，n表示同学选修的课程数，si表示第i门课的成绩，wi表示第i门课的学分。
        注意：如果某生某课程缓考，则该门课成绩不能计入加权成绩内。此外，类中不可出现公用属性，必须使用封装。
 
+# update for 2018-11-25
+# exp4:(1)  定义一个ReList接口，并使用数组的方法来实现接口。
+       要求：
+       1. ReList接口包含六个方法：
+       void add(Object obj)：往列表尾部添加对象
+       Object get(int index)：从列表中获取索引为i的对象
+       void clear()：清空所有的对象
+       boolean isEmpty()：判断列表中是否有对象
+       int size()：获取列表中对象的个数
+       int capacity()：所分配的空间大小
+       2. ReArrayList类实现ReList接口，内部以数组的方式实现，要求：
+       构造函数ReArrayList(int incSize)：参数incSize为数组初始化大小和空间的增量。若用户调用incSize非法，则设为默认值5。
+       当调用add()方法往试图往ReArrayList中增加对象时，如果内部数组已满，则增加数组大小，增量为incSize。
+       调用clear()方法可以清空所有通过add()方法加入的对象。
+       调用get()方法时，如果传入的参数非法，则返回null对象，并使用System.err提示用户参数错误。
+       3. ReDoubledArrayList类也实现ReList接口，内部依旧通过数组实现，要求：
+       构造函数ReDoubledArrayList(int initSize)：参数initSize表示数组的初始化大小。若用户调用initSize非法，则设为默认值10。
+       当调用add()方法往ReDoubledArrayList列表里面增加对象时，如果其内部数组已满，则将数组的长度变为当前长度的2倍。
+       其他方法和ReArrayList一致
+       最后设计一个类来测试你的ReArrayList和ReDoubledArrayList类，看看这两个类是否能在不破坏使用者代码的情况下相互替换。
+       提示：
+       1. 增加数组长度的方法：使用java.util.Arrays.copyOf()方法，用法请查阅Java API文档。
+
+# exp4:(2)  假设默认长度单位为米，编写一个计算为各种形状着色花费的程序。
+       要求：
+       1. 编写BorderColorable接口，要求：
+       具有方法void paintBorder()，在实现类中该方法需要输出“已经将什么形状的边着色”。
+       方法boolean isBorderPainted()，返回形状的边是否已经着色。
+       2. 编写SolidColorable接口，要求：
+       具有方法void paintShape()，在实现类中该方法需要输出“已经将什么形状进行着色”。
+       方法boolean isShapePainted()，返回形状是否已经着色。
+       3. Shape2D是所有形状的父类：
+       其中圆(Circle)，三角形(Triangle)和长方形(Rectangle)均继承自Shape2D类，而Square继承自Rectangle类。
+       Circle实现了BorderColorable接口，Triangle实现了SolidColorable接口，而Rectangle同时实现了BorderColorable接口和SolidColorable接口。
+       4. CostCalculator类用来计算为边着色和为形状着色所消耗的花费。
+       构造函数CostCalculator(double borderCost, double solidCost)，其中borderCost表示画1米的边需要的单价，solidCost表示画一平方米的边需要消耗的单价。
+       double calculate(Shape2D shape)用来计算实际为形状shape着色需要的花费。
+       形状着色的花费计算值计算已经着色的部分，且花费总额为边着色和为形状着色的花费的总和。
+       5. 写一个测试类测试你的程序。
+       提示：
+       1. 实现了BorderColorable的形状只为边着色，实现了SolidColorable的形状为整个形状着色。
+       2. 总体类图如下图所示。
+
+# exp5:(1)  编写一个计算学生平均成绩的程序。
+       要求：程序实现输入学生名字和成绩，当用户输入-1时表示输入结束。根据正确输入的成绩计算平均成绩和及格率。成绩用double类型表示，范围在[0.0, 100.0]之间。自定义一个checked异常InvalidScoreException，如果用户输入成绩时，输入一个非法值，如-80、大于100或字符等，程序抛出该异常，并捕获异常。请使用try和catch语句实现对输入、计算过程中出现的异常进行处理，某个学生的成绩输入错误时，应提示重新输入该学生的成绩。程序运行过程中不能使程序非法退出。
+       用户输入完学生姓名和成绩后，首先显示学生的成绩列表，然后显示全部学生的平均成绩和及格率（平均成绩和及格率均保留小数点后一位），要求程序输出格式如下所示：
+       张三	80.0
+       李四	40.0
+       王五	60.0
+       马六	71.0
+       赵七	22.0
+       ====
+       平均成绩:54.6
+       及格率:60.0%
+       
+       提示：
+       1. 用户可能在名字和成绩中任意一处输入-1。
+       2. 合理利用上一次实验中的ReList类。
+       3. 成绩列表可能为空。
+
+# exp5:(2)  编写一个程序引起JVM的OutOfMemoryError。
+       要求：在程序中不断分配内存，并引起JVM的OutOfMemoryError错误，然后用try…catch捕捉处理这个异常，在异常处理中查看虚拟机总内存和空闲内存并尝试恢复错误。在错误恢复后，再次查看总内存和空闲内存。
+       提示：
+       1. 合理利用上一次实验中的ReList类。
+       2. 可以使用Runtime类的freeMemory()方法查看空闲内存。
+       3. 使用Runtime类的totalMemory()方法查看总内存。（maxMemory()方法可以查看最大可占用内存。）
+       4. 试图恢复这个异常的时候可以使用System.gc()方法。
+
+# exp6:(1)  设计并编写一个分数类(Rational)，并比较分数的大小。
+       要求：
+       1. 具有构造函数Rational(int numerator, int denominator)，其中numberator表示分子，而denominator表示分母。
+       2. 实现Comparable接口，并实现比较分数大小的功能。
+       3. 设计并实现InverseComparator类(实现Comparator接口)，比较两个分数的倒数的大小。
+       4. 随机产生100个分数，然后分别对分数本身和其倒数进行排序。
+       提示：
+       1. 不能用分子除与分母的结果来比较大小，这样不精确。
+       2. 分母为零时分数为无穷大，两个无穷大的数相等，无穷大的数大于一切其他数。
+       3. 正无穷大大于负无穷大，两个负无穷大的分数一样大，两个正无穷大的分数一样大。
+       4. 如果分子和分母同时为零，则分数没有意义，此时分数构造函数需要抛出IllegalRationalException异常。
+
+# exp6:(2)  编写一个数字彩票游戏(Lottery类)。
+       要求：
+       1. 输入彩票中需要的数字个数n（必须在3到9之间）。然后程序随机产生n个互不相等个位数。
+       2. 输入彩票中需要匹配的最小数字数m（必须在1到n之间）。
+       3. 通过构造函数Lottery(n, m)构造彩票游戏对象。
+       4. 提示用户输入n个互不相等的猜测的数字。
+       5. 使用addGuess()方法往游戏类中添加用户猜测的数字。
+       6. 使用getAward()方法来获取用户中奖的金额。
+       奖金的计算：
+       1. 如果用户所猜测的n个数和系统生成的n个数完全相同，且顺序也完全相同，则奖金为100*8n。
+       2. 如果用户所猜测的n个数和系统生成的n个数完全相同，但是顺序不相同，则奖金为6n。
+       2. 如果用户所猜测的n个数中，有p (0<p<n)个数与系统生成的一致，则奖金为100*2p。
+       提示：
+       1. 使用equals()方法可以带顺序比较两个集合。
+       2. 使用containsAll()方法可以比较两个集合包含关系，不管顺序。
+       3. 产生n选m组合的过程比较困难，请参考附件中的Combination.java文件。其中Combination. getAllCombinations(collection, m)方法返回含有n个元素的集合collection中选取m个元素所组成的所有组合。
+# exp7:(1)  分别使用FileWriter和BufferedWriter往文件中写入随机整数，比较用时的多少。再用FileReader和BufferedReader读取写入的文件，比较用时多少。
+       要求：分别用FileWriter和BufferedWriter往文件中写入相同数量的随机数，根据写入数据数量的不同，计算所需的时间，并画出写入数据量和所消耗时间关系曲线图。再用FileReader和BufferedReader，将不同的数据量读入程序中，并统计所消耗时间的多少。
+       提示：可以使用System.currentTimeMillis ()方法获取当前的毫秒数，也可以使用Clock.systemUTC().millis()获取。
+
+
