@@ -12,5 +12,4 @@ public class NovelReader {
     private JButton jumpButton;
     private JLabel showLabel;
     private JPanel mainPanel;
-
 }
