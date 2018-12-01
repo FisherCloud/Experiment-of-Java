@@ -1,7 +1,6 @@
 package cn.edu.sicnu.cs.yuxin.exp8.infosytem;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class School {
     private char[] identificationCode;
