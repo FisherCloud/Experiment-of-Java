@@ -14,11 +14,6 @@ public class TextEditor extends JFrame {
     public TextEditor() {
         fileChooser = new JFileChooser();
 
-        this.setVisible(true);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(600, 400);
-        this.setLocationRelativeTo(null);
-
         Container container = this.getContentPane();
         container.setLayout(null);
 
@@ -26,31 +21,39 @@ public class TextEditor extends JFrame {
         showLabel.setBounds(10, 10, 80, 40);
         showLabel.setText("文件：");
         showLabel.setFont(new Font("宋体", Font.BOLD, 20));
-        this.add(showLabel);
+        container.add(showLabel);
 
         JButton openButton = new JButton();
         openButton.setBounds(480, 10, 100, 40);
         openButton.setText("打开");
         openButton.setFont(new Font("宋体", Font.BOLD, 20));
-        this.add(openButton);
+        container.add(openButton);
 
         textPane = new JTextPane();
         textPane.setBounds(80, 10, openButton.getBounds().x - showLabel.getBounds().width - 20, 40);
         textPane.setFont(new Font("宋体", Font.BOLD, 16));
-        add(this.textPane);
+        container.add(this.textPane);
 
         textArea = new JTextArea();
         textArea.setBounds(10, 60, 570, 250);
+        textArea.setColumns(10);
+        textArea.setRows(5);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
         textArea.setFont(new Font("宋体", Font.BOLD, 16));
-        this.add(textArea);
+        container.add(textArea);
+
+//        JScrollPane scrollPane = new JScrollPane(textArea);
+//        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+//        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+//        //scrollPane.setViewportView(textArea);
+//        container.add(scrollPane);
 
         JButton saveButton = new JButton();
         saveButton.setBounds(480, 320, 100, 40);
         saveButton.setText("保存");
         saveButton.setFont(new Font("宋体", Font.BOLD, 20));
-        this.add(saveButton);
+        container.add(saveButton);
 
         openButton.addActionListener(new ActionListener() {
             @Override
@@ -64,6 +67,21 @@ public class TextEditor extends JFrame {
                 btnSaveActionPerformed(actionEvent);
             }
         });
+
+        sizeWindowOnScreen(this, 0.6, 0.6);
+        this.setVisible(true);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(600, 400);
+        this.setLocationRelativeTo(null);
+    }
+
+    private void sizeWindowOnScreen(TextEditor textEditor, double widthRate,
+                                    double heightRate) {
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+
+        textEditor.setSize(new Dimension((int) (screenSize.width * widthRate),
+                (int) (screenSize.height * heightRate)));
+
     }
 
     public void btnOpenActionPerformed(ActionEvent actionEvent) {
