@@ -17,9 +17,8 @@ public class mainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
         setVisible(true);
-        setMinimumSize(new Dimension(480, 300));
+        setMinimumSize(new Dimension(screenWidth / 3, screenHeight / 3));
         setMaximumSize(new Dimension(screenWidth, screenHeight));
-        setSize(540, 320);
     }
 
     private JPanel mainPanel;

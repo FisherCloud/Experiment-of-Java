@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.form" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -249,7 +240,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543654441938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543655035326" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -364,7 +355,7 @@
       <workItem from="1543497561664" duration="976000" />
       <workItem from="1543545840804" duration="586000" />
       <workItem from="1543551274450" duration="27000" />
-      <workItem from="1543650072578" duration="4143000" />
+      <workItem from="1543650072578" duration="4826000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1540983851185</created>
@@ -377,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147157000" />
+    <option name="totallyTimeSpent" value="147840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -393,7 +384,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.22702703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22702703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -714,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
