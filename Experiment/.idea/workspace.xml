@@ -2,19 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Money.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Trapezoid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp1/Trapezoid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/StatementCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp2/StatementCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Shape2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Shape2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Tile1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Tile1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title1/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Line2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Line2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Point2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Point2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Title2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title2/Title2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReDoubledArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/exp4Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title1/exp4Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/BorderColorable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/BorderColorable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/CostCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/CostCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/exp4Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp4/title2/exp4Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/Exp5_Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/Exp5_Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/InvalidScoreException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/InvalidScoreException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/StudentGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/StudentGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/StudentGradeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title1/StudentGradeList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title2/Exp5_Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp5/title2/Exp5_Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Comparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Comparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/IllegalRationalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/IllegalRationalException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/InverseComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/InverseComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Rational.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/Rational.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/exp6_test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title1/exp6_test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title2/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title2/Combination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title2/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp6/title2/Lottery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp7/tiltle1/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp7/tiltle1/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/Mysqldb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/Mysqldb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../《Java Programing》Experiment Program.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../《Java Programing》Experiment Program.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/title1/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/title1/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/title1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp8/title1/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/secondTest/TextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/title1/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/title1/Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/title2/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/cn/edu/sicnu/cs/yuxin/exp9/title2/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,37 +114,50 @@
     </expand>
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1672992422">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="397" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="397" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="341">
+              <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.java" />
@@ -175,14 +242,21 @@
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -225,6 +299,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,63 +334,19 @@
               <item name="Experiment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp8" type="462c0819:PsiDirectoryNode" />
-              <item name="infosytem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp9" type="462c0819:PsiDirectoryNode" />
-              <item name="texteditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp9" type="462c0819:PsiDirectoryNode" />
-              <item name="texteditor" type="462c0819:PsiDirectoryNode" />
-              <item name="TextEditor" type="e9f4de52:FormNode" />
+              <item name="exp2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
-          <expand>
-            <path>
-              <item name="Experiment" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Experiment" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543673052736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543761690678" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar!/" />
@@ -336,7 +378,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mainFrame">
+  <component name="RunManager" selected="Application.IdiomsGame">
+    <configuration name="IdiomsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp2.IdiomsGame" />
+      <module name="Experiment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.sicnu.cs.yuxin.exp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchoolDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.sicnu.cs.yuxin.exp8.infosytem.SchoolDatabase" />
       <module name="Experiment" />
@@ -363,8 +418,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SchoolDatabase" />
+      <item itemvalue="Application.mainFrame" />
+      <item itemvalue="Application.IdiomsGame" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IdiomsGame" />
         <item itemvalue="Application.mainFrame" />
         <item itemvalue="Application.SchoolDatabase" />
       </list>
@@ -435,6 +496,9 @@
       <workItem from="1543551274450" duration="27000" />
       <workItem from="1543650072578" duration="4826000" />
       <workItem from="1543663390236" duration="9436000" />
+      <workItem from="1543697665892" duration="74000" />
+      <workItem from="1543760250491" duration="10000" />
+      <workItem from="1543760335396" duration="1355000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1540983851185</created>
@@ -447,13 +511,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157276000" />
+    <option name="totallyTimeSpent" value="158715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22008547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -461,10 +525,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" weight="0.3295129" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22702703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22668113" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,6 +539,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49893504" weight="0.3264865" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49946752" weight="0.32972974" />
+      <window_info anchor="bottom" id="Problems" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,6 +555,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LIMIT_HISTORY" value="false" />
     <ignored-roots>
@@ -504,20 +571,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/ReArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title1/StudentGrade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -649,19 +702,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-957">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.desktop/java/awt/event/ActionListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.desktop/java/awt/event/ActionListener.class" />
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/InfoSytem.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.form">
       <provider selected="true" editor-type-id="ui-designer" />
@@ -705,9 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1595">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,58 +763,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#854#855#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3a7363f-9447-4a9b-928c-3b7fe1afa1a1/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3a7363f-9447-4a9b-928c-3b7fe1afa1a1/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/Mysqldb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/jdk/internal/loader/ClassLoaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1/schema/javaTest/table/School">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/jdk/internal/loader/ClassLoaders.class" />
+    <entry file="das://8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1/schema/javaTest/table/School" />
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2145">
           <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#2148#2156#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp9/texteditor/TextEditor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,27 +790,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="540">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/School.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="690">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#790#791#0" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/DoubleConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp2/IdiomsGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>

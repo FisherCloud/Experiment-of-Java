@@ -1,5 +1,7 @@
 package cn.edu.sicnu.cs.yuxin.exp2;
 
+import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class IdiomsGame {
@@ -41,11 +43,25 @@ public class IdiomsGame {
                 }
             }
         }
-        for (int i = 0; i < idiom.length(); i++) {  //随机交换charbuffer字符数组中的字符
-            j = (int) System.currentTimeMillis() % 10;
-            buffer = charbuffer[i];
-            charbuffer[i] = charbuffer[(i + j) % 10];
-            charbuffer[(i + j) % 10] = buffer;
+
+        final String[] strBuffer = charbuffer;
+        int[] charCode = new int[charbuffer.length];
+        Arrays.fill(charCode, -1);
+        Random random = new Random(index);
+        for (int i = 0; i < charCode.length; i++) {  //随机交换charbuffer字符数组中的字符
+            int temp = random.nextInt(10);
+            charCode[i] = temp;
+            for (int k = 0; k < i; k++) {
+                if (temp == charCode[k]) {
+                    temp = random.nextInt(10);
+                    charCode[i] = temp;
+                    k = 0;
+                }
+            }
+        }
+        for (int i = 0; i < charCode.length; i++) {
+            System.out.print(charCode[i] + " ");
+            charbuffer[i] = strBuffer[charCode[i]];
         }
         // 以下开始游戏
         System.out.println("四字成语中包含的汉字如下：");
@@ -86,7 +102,7 @@ public class IdiomsGame {
                     rflag[indeb] = true;
                 }
                 if (charbufferflag[n - 1]) {
-                    System.out.print("对不起，”" + charbuffer[n - 1] + "”字你已经猜过了，");
+                    System.out.print("对不起，“" + charbuffer[n - 1] + "”字你已经猜过了，");
                 } else {
                     System.out.print("[");
                     for (int k = 0; k < idiom.length(); k++) {
@@ -97,18 +113,18 @@ public class IdiomsGame {
                         }
                     }
                     System.out.print("]\n");
-                    System.out.print("恭喜你，”" + charbuffer[n - 1] + "”字在成语中的位置是：" + (index + 1));
+                    System.out.print("恭喜你，“" + charbuffer[n - 1] + "”字在成语中的位置是：" + (index + 1));
                     if (indeb != -1) {
-                        System.out.print("、" + indeb + 1);
+                        System.out.print("、" + (indeb + 1));
                     }
                     System.out.println();
                 }
             } else {
                 count++;
                 if (charbufferflag[n - 1]) {
-                    System.out.print("对不起，”" + charbuffer[n - 1] + "”字你已经猜过了，");
+                    System.out.print("对不起，“" + charbuffer[n - 1] + "”字你已经猜过了，");
                 } else {
-                    System.out.print("对不起，”" + charbuffer[n - 1] + "”字不再成语中，");
+                    System.out.print("对不起，“" + charbuffer[n - 1] + "”字不再成语中，");
                 }
                 if (i == 5) {
                     System.out.print("并且你已经Game Over了！");
