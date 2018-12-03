@@ -83,11 +83,10 @@ public class mainFrame extends JFrame {
             for (School school : schools) {
                 System.out.println(school.toString());
             }
+            database.close();
         } else {
             JOptionPane.showMessageDialog(this, "数据库连接失败！", "Warning", JOptionPane.WARNING_MESSAGE);
-            return;
         }
-        database.close();
     }
 
     private JPanel mainPanel;

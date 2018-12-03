@@ -1,7 +1,5 @@
 package cn.edu.sicnu.cs.yuxin.exp8.infosytem;
 
-import java.util.Arrays;
-
 public class School {
     private char[] identificationCode;
     private String name = "";
@@ -34,6 +32,6 @@ public class School {
 
     @Override
     public String toString() {
-        return "学校代码：" + Arrays.toString(identificationCode) + "，学校名称：" + name;
+        return "学校代码：" + String.valueOf(identificationCode) + "，学校名称：" + name;
     }
 }
