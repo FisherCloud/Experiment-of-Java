@@ -44,24 +44,25 @@ public class IdiomsGame {
             }
         }
 
-        final String[] strBuffer = charbuffer;
         int[] charCode = new int[charbuffer.length];
         Arrays.fill(charCode, -1);
         Random random = new Random(index);
-        for (int i = 0; i < charCode.length; i++) {  //随机交换charbuffer字符数组中的字符
+        for (int i = 0; i < charCode.length; i++) {  //随机产生10个0-9的整数
             int temp = random.nextInt(10);
             charCode[i] = temp;
-            for (int k = 0; k < i; k++) {
-                if (temp == charCode[k]) {
-                    temp = random.nextInt(10);
-                    charCode[i] = temp;
-                    k = 0;
+        }
+
+        for (int i = 0; i < charCode.length - 1; i++) { //通过对整形数组排序打乱字符数组顺序
+            for (int k = i; k < charCode.length; k++) {
+                if (charCode[i] > charCode[k]) {
+                    String temp = charbuffer[i];
+                    charbuffer[i] = charbuffer[k];
+                    charbuffer[k] = temp;
+                    int tmp = charCode[i];
+                    charCode[i] = charCode[k];
+                    charCode[k] = tmp;
                 }
             }
-        }
-        for (int i = 0; i < charCode.length; i++) {
-            System.out.print(charCode[i] + " ");
-            charbuffer[i] = strBuffer[charCode[i]];
         }
         // 以下开始游戏
         System.out.println("四字成语中包含的汉字如下：");
