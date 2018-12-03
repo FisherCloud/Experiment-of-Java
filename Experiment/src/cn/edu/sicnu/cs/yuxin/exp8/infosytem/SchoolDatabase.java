@@ -38,12 +38,13 @@ public class SchoolDatabase {
     }
 
     public boolean insert(School school) {
-        String sql = "insert into School(idCode, name) values(?,?);";
+        String sql = "insert into School(idCode, name) values(?,?,?);";
         PreparedStatement preparedStatement;
         try {
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, String.valueOf(school.getIdentificationCode()));
             preparedStatement.setString(2, school.getName());
+            preparedStatement.setString(3, String.valueOf(school.getState()));
             int rows = preparedStatement.executeUpdate();
             preparedStatement.close();
         } catch (SQLException e) {
@@ -66,7 +67,7 @@ public class SchoolDatabase {
             preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
-                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2)));
+                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2),resultSet.getBoolean(3)));
             }
             preparedStatement.close();
         } catch (SQLException e) {
@@ -76,7 +77,7 @@ public class SchoolDatabase {
     }
 
     public boolean delete(String idCode) {
-        String sql = "delete from School where idcode = '" + idCode + "';";
+        String sql = String.format("delete from School where idcode = '%s';", idCode);
         PreparedStatement preparedStatement;
         try {
             preparedStatement = connection.prepareStatement(sql);
