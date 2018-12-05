@@ -3,14 +3,14 @@ package cn.edu.sicnu.cs.yuxin.exp8.infosytem;
 public class School {
     private char[] identificationCode;
     private String name = "";
-    private boolean state = false;
+    private int state = 0;
 
     public School() {
         identificationCode = new char[10];
         name = "";
     }
 
-    public School(char[] identificationCode, String name, boolean state) {
+    public School(char[] identificationCode, String name, int state) {
         this.identificationCode = identificationCode;
         this.name = name;
         this.state = state;
@@ -24,7 +24,7 @@ public class School {
         this.name = name;
     }
 
-    public void setState(boolean state) {
+    public void setState(int state) {
         this.state = state;
     }
 
@@ -36,7 +36,7 @@ public class School {
         return name;
     }
 
-    public boolean getState() {
+    public int getState() {
         return state;
     }
 

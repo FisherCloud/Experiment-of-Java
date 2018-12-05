@@ -38,13 +38,11 @@ public class SchoolDatabase {
     }
 
     public boolean insert(School school) {
-        String sql = "insert into School(idCode, name) values(?,?,?);";
+        String sql = "insert into School(idCode, name, state) values('%s','%s','%d');";
         PreparedStatement preparedStatement;
         try {
+            sql = String.format(sql, String.valueOf(school.getIdentificationCode()), school.getName(), school.getState());
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, String.valueOf(school.getIdentificationCode()));
-            preparedStatement.setString(2, school.getName());
-            preparedStatement.setString(3, String.valueOf(school.getState()));
             int rows = preparedStatement.executeUpdate();
             preparedStatement.close();
         } catch (SQLException e) {
@@ -55,7 +53,17 @@ public class SchoolDatabase {
     }
 
     public boolean update(School school) {
-        //String sql = "update School set idCode ='"+String.valueOf(school.getIdentificationCode())+"'";
+        String sql = "update School set idCode = '%s' , name = '%s' , state = '%d' where idCode = '%s';";
+        PreparedStatement preparedStatement;
+        String idCode = "";
+        try {
+            sql = String.format(sql, String.valueOf(school.getIdentificationCode()), school.getName(), String.valueOf(school.getState()), idCode);
+            preparedStatement = connection.prepareStatement(sql);
+            int rows = preparedStatement.executeUpdate();
+            preparedStatement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return true;
     }
 
@@ -67,7 +75,7 @@ public class SchoolDatabase {
             preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
-                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2),resultSet.getBoolean(3)));
+                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2), resultSet.getInt(3)));
             }
             preparedStatement.close();
         } catch (SQLException e) {

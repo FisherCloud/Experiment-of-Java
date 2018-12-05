@@ -6,6 +6,7 @@ import javax.swing.tree.DefaultTreeModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 public class mainFrame extends JFrame {
     public static void main(String[] args) {
@@ -40,16 +41,26 @@ public class mainFrame extends JFrame {
     }
 
     public void loadInfo() {
-        try {
+        SchoolDatabase database = new SchoolDatabase();
+        ArrayList<School> schools;
+        if (database.connect()) {
+            schools = database.getAll();
+            if (!schools.isEmpty()) {
+                infoNode.removeAllChildren();
+                for (School school : schools) {
 
-        } catch (Exception e) {
-            e.printStackTrace();
+                }
+            }
+            database.close();
+        } else {
+            JOptionPane.showMessageDialog(this, "数据库连接失败！", "Warning", JOptionPane.WARNING_MESSAGE);
         }
     }
 
     public void saveButtonActionPerformed(ActionEvent actionEvent) {
         String idCode = idCodeTextField.getText();
         String name = nameTextField.getText();
+        int state = stateCheckBox.isBorderPaintedFlat() ? 1 : 0;
         if (idCode.equals("")) {
             JOptionPane.showMessageDialog(this, "请输入学院编号!", "Warning", JOptionPane.WARNING_MESSAGE);
             return;
@@ -62,7 +73,8 @@ public class mainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "请输入学院名称!", "Warning", JOptionPane.WARNING_MESSAGE);
             return;
         }
-        School school = new School(idCode.toCharArray(), name, false);
+        System.out.println(state);
+        School school = new School(idCode.toCharArray(), name, state);
         SchoolDatabase database = new SchoolDatabase();
         if (database.connect()) {
             if (database.insert(school)) {
@@ -71,11 +83,10 @@ public class mainFrame extends JFrame {
                 JOptionPane.showMessageDialog(this, "添加失败！");
                 return;
             }
+            database.close();
         } else {
             JOptionPane.showMessageDialog(this, "数据库连接失败！", "Warning", JOptionPane.WARNING_MESSAGE);
-            return;
         }
-        database.close();
     }
 
     public void addButtonActionPerformed(ActionEvent actionEvent) {
