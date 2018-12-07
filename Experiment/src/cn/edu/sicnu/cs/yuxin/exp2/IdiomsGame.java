@@ -1,8 +1,6 @@
 package cn.edu.sicnu.cs.yuxin.exp2;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class IdiomsGame {
     private final static String[] idioms = {"凉拌黄瓜", "明明白白", "马到成功", "从中作梗", "舍我其谁", "传诵一时"};
@@ -16,44 +14,51 @@ public class IdiomsGame {
         Scanner input = new Scanner(System.in);
         String[] charbuffer = new String[10];
         boolean[] charbufferflag = new boolean[10];
-        int index = (int) System.currentTimeMillis() % idioms.length;
-        int indeb = 0;
+        Random random = new Random(System.currentTimeMillis());
+        int index = Math.abs(random.nextInt()) % idioms.length;
         String idiom = idioms[index];
-        String buffer;
-        int j = (int) System.currentTimeMillis() % 3;
+        int indeb = 0;
         int n = 0;
         boolean[] rflag = {false, false, false, false};
         boolean flag = true;
         int c = 0;
         int count = 0;
+        boolean fflag = false;
         for (int i = 0; i < idiom.length() - 1; i++) {   // 查找重复字，并放入charbuffer字符数组中
             for (int k = i + 1; k < idiom.length(); k++) {
                 if (idiom.substring(i, i + 1).equals(idiom.substring(k, k + 1))) {
                     charbuffer[c++] = idiom.substring(i, i + 1);
-                }
-            }
-        }
-        for (int i = 0; i < charbuffer.length; i++) {   // 从字符数组中随机取字符放入charbuffer字符数组中
-            if (i >= c) {
-                if (i >= 4 - c) {
-                    charbuffer[i] = chars[j];
-                    j += 2;
-                } else {
-                    charbuffer[i] = idiom.substring(i, i + 1);
+                    fflag = true;                           // 存在重复字符
                 }
             }
         }
 
+        if (!fflag) {                                       // 没有重复字符，将成语里面的所有字符放入数组
+            for (int i = 0; i < idiom.length(); i++) {
+                charbuffer[i] = idiom.substring(i, i + 1);
+            }
+        }
+
+        Set<Integer> in = new HashSet<>();   // 随机产生0-chars.length范围内的10 - (4 - c)个整数
+        while (in.size() < (10 - (4 - c))) {
+            in.add(Math.abs(random.nextInt()) % chars.length);
+        }
+
+        c = 4 - c;
+        for (int i : in) {      // 将随机取到的整数放入charbuffer
+            charbuffer[c++] = chars[i];
+        }
+
         int[] charCode = new int[charbuffer.length];
         Arrays.fill(charCode, -1);
-        Random random = new Random(index);
+
         for (int i = 0; i < charCode.length; i++) {  //随机产生10个0-9的整数
             int temp = random.nextInt(10);
             charCode[i] = temp;
         }
 
         for (int i = 0; i < charCode.length - 1; i++) { //通过对整形数组排序打乱字符数组顺序
-            for (int k = i; k < charCode.length; k++) {
+            for (int k = i + 1; k < charCode.length; k++) {
                 if (charCode[i] > charCode[k]) {
                     String temp = charbuffer[i];
                     charbuffer[i] = charbuffer[k];
