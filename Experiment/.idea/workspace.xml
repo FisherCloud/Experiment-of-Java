@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -65,6 +65,18 @@
                 <element signature="e#1716#1717#0" expanded="true" />
                 <element signature="e#2140#2141#0" expanded="true" />
                 <element signature="e#2212#2213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +154,6 @@
         <option value="8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1/schema/javaTest/table/余鑫好帅_copy(18).sql" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle1/test1.java" />
         <option value="$PROJECT_DIR$/Text.txt" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java" />
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp6/title2/Lottery.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp6/title2/Combination.java" />
@@ -167,6 +178,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e3a7363f-9447-4a9b-928c-3b7fe1afa1a1/console.sql" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java" />
       </list>
     </option>
   </component>
@@ -240,15 +252,15 @@
               <item name="Experiment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp8" type="462c0819:PsiDirectoryNode" />
+              <item name="exp7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Experiment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuxin" type="462c0819:PsiDirectoryNode" />
-              <item name="exp8" type="462c0819:PsiDirectoryNode" />
-              <item name="infosytem" type="462c0819:PsiDirectoryNode" />
+              <item name="exp7" type="462c0819:PsiDirectoryNode" />
+              <item name="tiltle2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +284,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544184753762" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544185631112" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar!/" />
@@ -400,7 +412,7 @@
       <workItem from="1543921838190" duration="5205000" />
       <workItem from="1543972218334" duration="910000" />
       <workItem from="1543973666809" duration="2460000" />
-      <workItem from="1544176862332" duration="6469000" />
+      <workItem from="1544176862332" duration="7086000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1540983851185</created>
@@ -413,13 +425,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186051000" />
+    <option name="totallyTimeSpent" value="186668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15758547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15758547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,7 +441,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49732906" visible="true" weight="0.22594595" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732906" visible="true" weight="0.22594595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,13 +496,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Text.txt" />
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -745,6 +750,16 @@
             <element signature="e#1716#1717#0" expanded="true" />
             <element signature="e#2140#2141#0" expanded="true" />
             <element signature="e#2212#2213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

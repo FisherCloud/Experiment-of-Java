@@ -1,6 +1,7 @@
 package cn.edu.sicnu.cs.yuxin.exp7.tiltle2;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class LetterFrequencyCount {
 
@@ -8,13 +9,13 @@ public class LetterFrequencyCount {
     private double[] frequencys = new double[26];
 
     LetterFrequencyCount() {
-        for (int i = 0; i < frequencys.length; i++) {
-            frequencys[i] = 0.0;
-            counts[i] = 0;
-        }
+        Arrays.fill(counts, 0);
+        Arrays.fill(frequencys, 0.0);
     }
 
     public boolean loadFile(File file) throws IOException {
+        Arrays.fill(counts, 0);
+        Arrays.fill(frequencys, 0.0);
         String text = "";
         String strbf = "";
         if (!file.exists()) {
@@ -22,21 +23,20 @@ public class LetterFrequencyCount {
             return false;
         }
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-        while (true) {
-            if ((strbf = bufferedReader.readLine()).isEmpty()) {
-                break;
-            } else {
-                text = text + strbf;
-            }
+        while ((strbf = bufferedReader.readLine()) != null) {
+            text = text + strbf;
         }
-        for (char ch : text.toCharArray())
+        for (char ch : text.toCharArray()) {
             if ((ch >= 'A' && ch <= 'Z')) {
                 counts[ch - 'A']++;
             } else if (ch >= 'a' && ch <= 'z') {
                 counts[ch - 'a']++;
             }
+        }
         for (int i = 0; i < counts.length; i++) {
-            frequencys[i] = (double) counts[i] / text.toCharArray().length;
+            if (!text.equals("")) {
+                frequencys[i] = (double) counts[i] / text.toCharArray().length;
+            }
         }
         bufferedReader.close();
         return true;
