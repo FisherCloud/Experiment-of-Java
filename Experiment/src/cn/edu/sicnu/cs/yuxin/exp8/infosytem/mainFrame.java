@@ -102,7 +102,19 @@ public class mainFrame extends JFrame {
         School school = new School(idCode.toCharArray(), name, state);
         SchoolDatabase database = new SchoolDatabase();
         if (database.connect()) {
-            if (isNew) {
+            if (database.select(school.getIdentificationCode()) != null && !isNew) {
+                if (database.update(school)) {
+                    JOptionPane.showMessageDialog(this, "修改成功！");
+                } else {
+                    JOptionPane.showMessageDialog(this, "修改失败！");
+                    return;
+                }
+            } else {
+                if (!isNew) {
+                    if (JOptionPane.showConfirmDialog(this, "不存在此条信息，是否添加？", "警告", JOptionPane.YES_NO_OPTION) != 0) {
+                        return;
+                    }
+                }
                 if (database.insert(school)) {
                     JOptionPane.showMessageDialog(this, "添加成功！");
                 } else {
@@ -110,13 +122,6 @@ public class mainFrame extends JFrame {
                     return;
                 }
                 isNew = false;
-            } else {
-                if (database.update(school)) {
-                    JOptionPane.showMessageDialog(this, "修改成功！");
-                } else {
-                    JOptionPane.showMessageDialog(this, "修改失败！");
-                    return;
-                }
             }
             loadInfo();
             database.close();
