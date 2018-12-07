@@ -23,6 +23,14 @@ public class Course {
         return name;
     }
 
+    public double getGrade() {
+        return grade;
+    }
+
+    public boolean isSlowTest() {
+        return slowTest;
+    }
+
     public int getCredit() {
         return credit;
     }
@@ -37,6 +45,6 @@ public class Course {
 
     @Override
     public String toString() {
-        return "ID:" + id + ",name:" + name + ",credit:" + credit + ",grade:" + grade + ",slowtest:" + slowTest;
+        return "课程编号：" + id + "，课程名称：" + name + "，课程学分：" + credit + "，成绩：" + grade + "，是否缓考：" + (slowTest ? "是" : "否");
     }
 }

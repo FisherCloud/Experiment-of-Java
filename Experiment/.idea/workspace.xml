@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c8eb51-ddf7-49e6-8e7d-ba61fe297b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,37 +56,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+            <state relative-caret-position="435">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1647#1648#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
-                <element signature="e#2140#2141#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="-264">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <element signature="e#2620#2628#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+        <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -116,9 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title1/Person.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/exp4Test.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/SolidColorable.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title1/Circle.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/BorderColorable.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp4/title2/Triangle.java" />
@@ -167,6 +177,9 @@
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/SchoolDatabase.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/LetterFrequencyCount.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp8/infosytem/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java" />
       </list>
     </option>
   </component>
@@ -235,6 +248,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuxin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
+              <item name="exp3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yuxin" type="462c0819:PsiDirectoryNode" />
+              <item name="exp3" type="462c0819:PsiDirectoryNode" />
+              <item name="title3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +285,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544186205425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544189402201" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar!/" />
@@ -385,7 +413,7 @@
       <workItem from="1543921838190" duration="5205000" />
       <workItem from="1543972218334" duration="910000" />
       <workItem from="1543973666809" duration="2460000" />
-      <workItem from="1544176862332" duration="7668000" />
+      <workItem from="1544176862332" duration="10857000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1540983851185</created>
@@ -398,13 +426,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187250000" />
+    <option name="totallyTimeSpent" value="190439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15758547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15758547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +442,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49732906" visible="true" weight="0.22594595" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732906" visible="true" weight="0.22594595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,9 +484,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp6/title1/IllegalRationalException.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/126735aa-e7e7-4fcf-a758-7ae2b3166761/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa86915c-4c57-42f8-8705-2754768b071b/console.sql" />
     <entry file="das://8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1/schema/javaTest/table/余鑫好帅_copy(18).sql" />
     <entry file="das://8a6dafa2-8ba7-4ea3-b2ff-57f45c5b30f1/schema/javaTest/table/袁政伟更帅" />
     <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp7/tiltle2/Text.txt">
@@ -733,6 +758,52 @@
             <element signature="e#1716#1717#0" expanded="true" />
             <element signature="e#2140#2141#0" expanded="true" />
             <element signature="e#2212#2213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp5/title2/Exp5_Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/sicnu/cs/yuxin/exp3/title3/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
           </folding>
         </state>
       </provider>
