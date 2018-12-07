@@ -67,6 +67,7 @@ public class mainFrame extends JFrame {
         ArrayList<School> schools;
         idCodeTextField.setText("");
         nameTextField.setText("");
+        stateCheckBox.setSelected(false);
         if (database.connect()) {
             schools = database.getAll();
             infoNode.removeAllChildren();
@@ -127,6 +128,7 @@ public class mainFrame extends JFrame {
     public void addButtonActionPerformed(ActionEvent actionEvent) {
         idCodeTextField.setText("");
         nameTextField.setText("");
+        stateCheckBox.setSelected(false);
         isNew = true;
     }
 
