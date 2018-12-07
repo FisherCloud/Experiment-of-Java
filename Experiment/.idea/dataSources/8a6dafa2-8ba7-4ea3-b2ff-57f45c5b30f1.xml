@@ -2,7 +2,7 @@
 <dataSource name="javaTest@119.23.61.148">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.14">
     <root id="1">
-      <ServerVersion>5.7.23</ServerVersion>
+      <ServerVersion>5.7.24</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>exact</DefaultCasing>
@@ -905,7 +905,7 @@
     </collation>
     <table id="226" parent="3" name="School"/>
     <table id="227" parent="3" name="余鑫的男神"/>
-    <column id="228" parent="226" name="idcode">
+    <column id="228" parent="226" name="idCode">
       <Position>1</Position>
       <DataType>char(10)|0s</DataType>
       <NotNull>1</NotNull>
@@ -923,42 +923,33 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="231" parent="226" name="School_idcode_uindex">
-      <ColNames>idcode</ColNames>
+    <index id="231" parent="226" name="School_idCode_uindex">
+      <ColNames>idCode</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="232" parent="226" name="School_name_uindex">
-      <ColNames>name</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="233" parent="226" name="PRIMARY">
+    <key id="232" parent="226" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>idcode</ColNames>
+      <ColNames>idCode</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="234" parent="226" name="School_idcode_uindex">
-      <ColNames>idcode</ColNames>
-      <UnderlyingIndexName>School_idcode_uindex</UnderlyingIndexName>
+    <key id="233" parent="226" name="School_idCode_uindex">
+      <ColNames>idCode</ColNames>
+      <UnderlyingIndexName>School_idCode_uindex</UnderlyingIndexName>
     </key>
-    <key id="235" parent="226" name="School_name_uindex">
-      <ColNames>name</ColNames>
-      <UnderlyingIndexName>School_name_uindex</UnderlyingIndexName>
-    </key>
-    <column id="236" parent="227" name="Id">
+    <column id="234" parent="227" name="Id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="227" name="袁政伟">
+    <column id="235" parent="227" name="袁政伟">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="238" parent="227" name="PRIMARY">
+    <key id="236" parent="227" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>

@@ -7,10 +7,10 @@ public class SchoolDatabase {
     private String URL = "jdbc:mysql://";
     private String HOST = "119.23.61.148";
     private String PORT = "3306";
-    private String DATABASE = "javaTest";
+    private String DATABASE = "minecraft";
     private final static String DRIVER = "com.mysql.jdbc.Driver";
-    private String USER = "test";
-    private String PASSWORD = "Java123456+";
+    private String USER = "minecraft";
+    private String PASSWORD = "Woshiyuxin123.";
     private Connection connection = null;
 
     SchoolDatabase() {
@@ -38,7 +38,7 @@ public class SchoolDatabase {
     }
 
     public boolean insert(School school) {
-        String sql = "insert into School(idCode, name, state) values('%s','%s','%d');";
+        String sql = "insert into school(idCode, name, state) values('%s','%s','%d');";
         PreparedStatement preparedStatement;
         try {
             sql = String.format(sql, String.valueOf(school.getIdentificationCode()), school.getName(), school.getState());
@@ -53,11 +53,9 @@ public class SchoolDatabase {
     }
 
     public boolean update(School school) {
-        String sql = "update School set idCode = '%s' , name = '%s' , state = '%d' where idCode = '%s';";
+        String sql = String.format("update school set name = '%s' , state = '%d' where idCode = '%s';", school.getName(), school.getState(), String.valueOf(school.getIdentificationCode()));
         PreparedStatement preparedStatement;
-        String idCode = "";
         try {
-            sql = String.format(sql, String.valueOf(school.getIdentificationCode()), school.getName(), String.valueOf(school.getState()), idCode);
             preparedStatement = connection.prepareStatement(sql);
             int rows = preparedStatement.executeUpdate();
             preparedStatement.close();
@@ -67,15 +65,35 @@ public class SchoolDatabase {
         return true;
     }
 
+    public School select(char[] idCode) {
+        String sql = String.format("select * from school where idCode = '%s';", String.valueOf(idCode));
+        PreparedStatement preparedStatement;
+        try {
+            preparedStatement = connection.prepareStatement(sql);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                School school = new School(resultSet.getString(1).toCharArray(), resultSet.getString(2), Integer.valueOf(resultSet.getString(3)));
+                preparedStatement.close();
+                return school;
+            } else {
+                preparedStatement.close();
+                return null;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public ArrayList<School> getAll() {
-        String sql = "select * from School;";
+        String sql = "select * from school;";
         PreparedStatement preparedStatement;
         ArrayList<School> schools = new ArrayList<School>();
         try {
             preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
-                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2), resultSet.getInt(3)));
+                schools.add(new School(resultSet.getString(1).toCharArray(), resultSet.getString(2), Integer.valueOf(resultSet.getString(3))));
             }
             preparedStatement.close();
         } catch (SQLException e) {
@@ -84,8 +102,8 @@ public class SchoolDatabase {
         return schools;
     }
 
-    public boolean delete(String idCode) {
-        String sql = String.format("delete from School where idcode = '%s';", idCode);
+    public boolean delete(char[] idCode) {
+        String sql = String.format("delete from school where idcode = '%s';", String.valueOf(idCode));
         PreparedStatement preparedStatement;
         try {
             preparedStatement = connection.prepareStatement(sql);
