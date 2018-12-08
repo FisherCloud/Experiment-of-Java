@@ -106,6 +106,5 @@ public class Student {
         student.printStudentInfo(students);
         input.close();
         students.clear();
-        mysqldb.releaseConn();
     }
 }
