@@ -1,12 +1,14 @@
 package cn.edu.sicnu.cs.yuxin.exp6.title1;
 
+import java.lang.Comparable;
+
 class IllegalRationalException extends Exception {
     public IllegalRationalException() {
         super("分子分母同时为零");
     }
 }
 
-public abstract class Rational implements Comparable {
+public class Rational implements Comparable<Rational> {
     private int numerator;
     private int denominator;
 
@@ -18,19 +20,6 @@ public abstract class Rational implements Comparable {
     public Rational(int numerator, int denominator) {
         this.numerator = numerator;
         this.denominator = denominator;
-    }
-
-    @Override
-    public int compare(Rational object) throws IllegalRationalException {
-        if (this.numerator == 0 && this.denominator == 0) {
-            throw new IllegalRationalException();
-        }
-        if (this.numerator * object.denominator > this.denominator * object.numerator) {
-            return 1;
-        } else if (this.numerator * object.denominator < this.denominator * object.numerator) {
-            return -1;
-        }
-        return 0;
     }
 
     public void setNumerator(int numerator) {
@@ -49,6 +38,27 @@ public abstract class Rational implements Comparable {
         return denominator;
     }
 
+    @Override
+    public String toString() {
+        return getNumerator() + "/" + getDenominator();
+    }
+
+    @Override
+    public int compareTo(Rational rational) {
+        if (this.numerator == 0 && rational.denominator == 0) {
+            try {
+                throw new IllegalRationalException();
+            } catch (IllegalRationalException e) {
+                e.printStackTrace();
+            }
+        }
+        if (this.numerator * rational.denominator > this.denominator * rational.numerator) {
+            return 1;
+        } else if (this.numerator * rational.denominator < this.denominator * rational.numerator) {
+            return -1;
+        }
+        return 0;
+    }
 }
 
 
